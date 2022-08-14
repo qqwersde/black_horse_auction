@@ -16,7 +16,6 @@ public class AuctionService {
 
     private final String successMessage = "查询成功";
 
-    private final String noFlightMessage = "对不起，当前航段无航班";
 
     public AuctionObjectInfo getAuctionTarget(String auctionNum) {
         if (auctionNum.equals("A001")){
